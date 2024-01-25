@@ -28,7 +28,6 @@ header .wrap nav h1 {
   grid-column: 1 / span 2;
   justify-self: center;
   line-height: 2;
-  margin-bottom: 40px;
 }
 header .wrap nav h1::before{
  content: "";  

@@ -117,9 +117,6 @@ header .wrap nav ul.enb li a {
   font-size: 10px;
   position: relative;
 }
-header .wrap nav ul.enb li a:hover {
-
-}
 header .wrap nav ul.enb li:nth-child(1) a::after,header .wrap nav ul.enb li:nth-child(2) a::after{
  
 }

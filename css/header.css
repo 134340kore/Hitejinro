@@ -107,6 +107,9 @@ header .wrap nav ul.enb li a:before{
 header .wrap nav ul.enb li:nth-child(3) a:before{
   background-color: #7cbcff;
 }
+header .wrap nav ul.enb li:nth-child(3) a{
+  color: #7cbcff;
+}
 header .wrap nav ul.enb li a {
   display: flex;
   line-height: 100px;

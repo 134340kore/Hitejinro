@@ -1,0 +1,56 @@
+div#subtitle {
+  
+}
+div#subtitle .wrap {
+  max-width: max-content;
+}
+div#subtitle button{
+  z-index: 1;
+}
+}
+div#subtitle button::before {
+  font-size: 12px;
+  opacity: 1;
+  color: #ccc;
+  transition: 0.5s;
+}
+div#subtitle .titleani>button::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+}
+div#subtitle .titleani>button.slick-prev::before{
+  background-image: url(../img/arrow_1.svg);
+}
+div#subtitle .titleani>button.slick-next::before{
+  background-image: url(../img/arrow_2.svg);
+}
+div#subtitle .slick-dots li button::before{
+  
+  opacity: 1;
+  color: white;
+}
+div#subtitle .slick-active button::before {
+  color: white;
+  transform: scale(1.2);
+  transform: translatey(-2px);
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+div#subtitle .slick-prev {
+  left: 30px;
+}
+div#subtitle .slick-next{
+  right: 50px;
+}
+div#subtitle .wrap img {
+
+}
+
+div#subtitle .wrap .slick-dots{
+
+  bottom: 20px;
+}

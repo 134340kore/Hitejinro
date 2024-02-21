@@ -51,28 +51,28 @@ aside .wrap ul.list > li h3.current::before{
    width: 100%;
 }
 aside .wrap ul.list > li:nth-child(1) h3::before{
- background-color: #ffc100;
+ background-color: orange;
 }
 aside .wrap ul.list > li:nth-child(2) h3::before{
- background-color: #99cc41;
+ background-color: yellow;
 }
 aside .wrap ul.list > li:nth-child(3) h3::before{
-background-color: #f68a0a;
+background-color: green;
 }
 aside .wrap ul.list > li:nth-child(4) h3::before{
- background-color: #bb2b2b;
+ background-color: blue;
 }
 aside .wrap ul.list > li:nth-child(5) h3::before{
- background-color: #7436b5;
+ background-color: red;
 }
 aside .wrap ul.list > li:nth-child(6) h3::before{
- background-color: #2dabdf;
+ background-color: gold;
 }
 aside .wrap ul.list > li:nth-child(7) h3::before{
- background-color: #ff617f;
+ background-color: cyan;
 }
 aside .wrap ul.list > li:nth-child(9) h3::before{
- background-color: #727272;
+ background-color:  brown;
 }
 aside .wrap ul.list > li h3 a {
   height: 100%;
@@ -150,28 +150,28 @@ aside .wrap ul.list > li ul.listsub.wide::before{
   }
 }
 aside .wrap ul.list > li:nth-child(1) ul.listsub::before{
-  background-color: #ffc100;
+  background-color: orange;
 }
 aside .wrap ul.list > li:nth-child(2) ul.listsub::before{
-  background-color: #99cc41;
+  background-color: yellow;
 }
 aside .wrap ul.list > li:nth-child(3) ul.listsub::before{
-  background-color: #f68a0a;
+  background-color: green;
 }
 aside .wrap ul.list > li:nth-child(4) ul.listsub::before{
-  background-color: #bb2b2b;
+  background-color: blue;
 }
 aside .wrap ul.list > li:nth-child(5) ul.listsub::before{
-  background-color: #7436b5;
+  background-color: red;
 }
 aside .wrap ul.list > li:nth-child(6) ul.listsub::before{
-  background-color: #2dabdf;
+  background-color: gold;
 }
 aside .wrap ul.list > li:nth-child(7) ul.listsub::before{
-  background-color: #ff617f;
+  background-color: cyan;
 }
 aside .wrap ul.list > li:nth-child(8) ul.listsub::before{
-  background-color:  #727272;
+  background-color:  brown;
 }
 aside .wrap ul.list > li ul.listsub li {
   position: relative;

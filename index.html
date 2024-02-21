@@ -37,6 +37,8 @@
                     $(this).children(".wtext").addClass("scaleX100");
                     // 마우스올린 li가 아닌 다른 형제요소들의 자식 wtext에 클래스를 없애라(scaleX100)
                     $(this).siblings().children("wtext").removeClass("scaleX100");
+
+
                 },
                 function(){ //mouseleave
                     $(this).children(".wtext").stop().fadeOut();//서서히 사라지게 하시오

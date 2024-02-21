@@ -7,7 +7,7 @@ aside {
   background-color: #2f3339;
   min-height: 600px;
   transition: 1s;
-  z-index: 2;
+  z-index: 1;
 }
 aside .wrap {
   width: 100px;
@@ -51,28 +51,28 @@ aside .wrap ul.list > li h3.current::before{
    width: 100%;
 }
 aside .wrap ul.list > li:nth-child(1) h3::before{
- background-color: orange;
+ background-color: #ffc100;
 }
 aside .wrap ul.list > li:nth-child(2) h3::before{
- background-color: yellow;
+ background-color: #99cc41;
 }
 aside .wrap ul.list > li:nth-child(3) h3::before{
-background-color: green;
+background-color: #f68a0a;
 }
 aside .wrap ul.list > li:nth-child(4) h3::before{
- background-color: blue;
+ background-color: #bb2b2b;
 }
 aside .wrap ul.list > li:nth-child(5) h3::before{
- background-color: red;
+ background-color: #7436b5;
 }
 aside .wrap ul.list > li:nth-child(6) h3::before{
- background-color: gold;
+ background-color: #2dabdf;
 }
 aside .wrap ul.list > li:nth-child(7) h3::before{
- background-color: cyan;
+ background-color: #ff617f;
 }
 aside .wrap ul.list > li:nth-child(9) h3::before{
- background-color:  brown;
+ background-color: #727272;
 }
 aside .wrap ul.list > li h3 a {
   height: 100%;
@@ -150,28 +150,28 @@ aside .wrap ul.list > li ul.listsub.wide::before{
   }
 }
 aside .wrap ul.list > li:nth-child(1) ul.listsub::before{
-  background-color: orange;
+  background-color: #ffc100;
 }
 aside .wrap ul.list > li:nth-child(2) ul.listsub::before{
-  background-color: yellow;
+  background-color: #99cc41;
 }
 aside .wrap ul.list > li:nth-child(3) ul.listsub::before{
-  background-color: green;
+  background-color: #f68a0a;
 }
 aside .wrap ul.list > li:nth-child(4) ul.listsub::before{
-  background-color: blue;
+  background-color: #bb2b2b;
 }
 aside .wrap ul.list > li:nth-child(5) ul.listsub::before{
-  background-color: red;
+  background-color: #7436b5;
 }
 aside .wrap ul.list > li:nth-child(6) ul.listsub::before{
-  background-color: gold;
+  background-color: #2dabdf;
 }
 aside .wrap ul.list > li:nth-child(7) ul.listsub::before{
-  background-color: cyan;
+  background-color: #ff617f;
 }
 aside .wrap ul.list > li:nth-child(8) ul.listsub::before{
-  background-color:  brown;
+  background-color:  #727272;
 }
 aside .wrap ul.list > li ul.listsub li {
   position: relative;

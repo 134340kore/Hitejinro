@@ -154,24 +154,17 @@ footer .btop{
   opacity: 0;
   transition: 0.5s;
 }
-.topFix{
-  position: fixed !important;
-  bottom: 0;
-  z-index: 1;
-  top: auto !important;
-  color: black !important;
-  opacity: 1 !important;  
-}
 footer .btop::before{
   content: "";
   height: 43px;
   display: inline-block;
-  border-left: 3px solid white;
+  border-left: 3px solid #fff;
   vertical-align: -23px;
   margin-right: 4px;
 }
 footer .btop.topFix::before{
-  border-left: 3px solid black;  
+  
+  border-color: black;
 }
 footer .btop::after{
   content: "";
@@ -185,9 +178,17 @@ footer .btop::after{
   transform: rotate(45deg);
 }
 footer .btop.topFix::after{
-  border-left: 3px solid black;
+  border-color: black;
 }
 
+.topFix{
+  position: fixed !important;
+  bottom: 0;
+  z-index: 1;
+  top: auto !important;
+  color: black !important;
+  opacity: 1 !important;
+}
 
 
 

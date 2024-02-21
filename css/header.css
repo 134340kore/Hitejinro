@@ -44,6 +44,7 @@ header .wrap nav {
   align-items: center;
 }
 header.headerFix .wrap nav{
+  
   grid-template-columns: auto auto auto;
   grid-template-rows: auto;
 }
@@ -109,7 +110,7 @@ header .wrap nav ul.gnb li a:hover{
 }
 /* wgnb */
 header .wrap nav .wgnb{
-  /* display: block; */
+  display: block;
   position: absolute;
   width: 100%;
   background-color: rgba(33,83,250,0.9);
@@ -119,7 +120,7 @@ header .wrap nav .wgnb{
   /*! transition:1s; */
   left: 0;
   top: 120px;
-  /*! display: none; */
+  display: none;
   height: 240px;
 }
 header .wrap nav .wgnb *{
@@ -140,8 +141,6 @@ header .wrap nav .wgnb .center{
   height: 32px;
   background-image: url(../img/close.svg);
   background-size: contain;
-  position: relative;
-  top: 10px;
 }
 header .wrap nav .wgnb .wsub{
   /*! padding-left:30px; */
@@ -253,6 +252,7 @@ header .wrap nav .wgnb ul.sub1>li:nth-child(n+4) a{
   padding-left: 20px;
 }
 header .wrap nav .wgnb ul.sub1>li:not(:first-child)>a{
+  padding-left: initial;
 }
 header .wrap nav .wgnb ul.sub2{
 

@@ -109,7 +109,7 @@ header .wrap nav ul.gnb li a:hover{
 }
 /* wgnb */
 header .wrap nav .wgnb{
-  display: block;
+  /* display: block; */
   position: absolute;
   width: 100%;
   background-color: rgba(33,83,250,0.9);

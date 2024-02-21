@@ -1,0 +1,36 @@
+#greeting{
+  min-height: 700px;
+}
+#greeting .wrap{
+  height: 700px;
+}
+.breadcrumb{
+  display: flex;
+  color: white;
+}
+.breadcrumb:after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 30px;
+  background-color: #e7e7e7;
+  position: absolute;
+  left: 0;
+}
+.breadcrumb li{
+  
+}
+.breadcrumb li a{
+  line-height: 1.3;
+  padding: 0 20px;
+}
+.underC{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.underC img{
+  width: 200px;
+}
